@@ -20,8 +20,8 @@ public class UserEntryCmdHandler implements ICmdHandler<GameMsgProtocol.UserEntr
         if (null==ctx||null==cmd){
             return;
         }
-        int userId=cmd.getUserId();
-        String heroAvatar=cmd.getHeroAvatar();
+        int userId=1;//cmd.getUserId();
+        String heroAvatar="";//cmd.getHeroAvatar();
         User newUser=new User();
         newUser.userId=userId;
         newUser.heroAvatar=heroAvatar;

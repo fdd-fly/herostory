@@ -42,8 +42,8 @@ public class GameMsgHandler extends SimpleChannelInboundHandler<Object> {
         try {
             if (msg instanceof GameMsgProtocol.UserEntryCmd){
                 GameMsgProtocol.UserEntryCmd cmd= (GameMsgProtocol.UserEntryCmd) msg;
-                int userId=cmd.getUserId();
-                String heroAvatar=cmd.getHeroAvatar();
+                int userId=0;//cmd.getUserId();
+                String heroAvatar="";//cmd.getHeroAvatar();
 
                 User newUser=new User();
                 newUser.userId=userId;
