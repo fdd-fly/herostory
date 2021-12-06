@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * 主方法入口
+ * 主方法入口 关于netty框架的使用方法入门
  * @author zqs
  * @date 2021-11-17 20:18
  */
